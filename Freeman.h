@@ -84,8 +84,8 @@ void Freeman::showMana()
 
 void Freeman::isDead()
 {
-		std::string lost = "FREEMAN LOSES!";
-		std::string lost2 = "ARARAGI WINS!";
+		std::string lost = "PLAYER 2 LOSES!";
+		std::string lost2 = "PLAYER 1 WINS!";
 		sfw::drawString(font, lost.c_str(), 300, 300, 20, 20);
 		sfw::drawString(font, lost2.c_str(), 300, 250, 20, 20);
 		clearStrings();

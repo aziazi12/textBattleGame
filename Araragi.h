@@ -93,8 +93,8 @@ void Araragi::showMana()
 void Araragi::isDead()
 {
 	
-		std::string lost = "ARARAGI LOSES!";
-		std::string lost2 = "FREEMAN WINS!";
+		std::string lost = "PLAYER 1 LOSES!";
+		std::string lost2 = "PLAYER 2 WINS!";
 		sfw::drawString(font, lost.c_str(), 300, 300, 20, 20);
 		sfw::drawString(font, lost2.c_str(), 300, 250, 20, 20);
 

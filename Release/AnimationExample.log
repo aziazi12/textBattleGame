@@ -1,0 +1,29 @@
+﻿Build started 12/1/2015 10:32:04 AM.
+     1>Project "C:\Users\Aziz\Desktop\SFWExampleProject\AnimationExample.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt AssetLibrary.cpp collisiontests.cpp main.cpp
+         AssetLibrary.cpp
+     1>AssetLibrary.cpp(77): warning C4244: 'initializing': conversion from 'float' to 'unsigned int', possible loss of data
+         collisiontests.cpp
+         main.cpp
+     1>c:\users\aziz\desktop\sfwexampleproject\Araragi.h(129): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\aziz\desktop\sfwexampleproject\Freeman.h(120): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\aziz\desktop\sfwexampleproject\TextInputBox.h(49): warning C4390: ';': empty controlled statement found; is this the intent?
+     1>main.cpp(223): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+     1>main.cpp(224): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aziz\Desktop\SFWExampleProject\Release\AnimationExample.exe" /NOLOGO sfw.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Aziz\Desktop\SFWExampleProject\Release\AnimationExample.pdb" /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Aziz\Desktop\SFWExampleProject\Release\AnimationExample.lib" /MACHINE:X86 /SAFESEH Release\AssetLibrary.obj
+         Release\collisiontests.obj
+         Release\main.obj
+         Generating code
+         All 1531 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Finished generating code
+     1>sfw.lib(sfwdraw.obj) : warning LNK4099: PDB 'nsfw2draw.pdb' was not found with 'sfw.lib(sfwdraw.obj)' or at 'C:\Users\Aziz\Desktop\SFWExampleProject\Release\nsfw2draw.pdb'; linking object as if no debug info
+     1>sfw.lib(gl_core_4_4.obj) : warning LNK4099: PDB 'nsfw2draw.pdb' was not found with 'sfw.lib(gl_core_4_4.obj)' or at 'C:\Users\Aziz\Desktop\SFWExampleProject\Release\nsfw2draw.pdb'; linking object as if no debug info
+     1>sfw.lib(crenderutils.obj) : warning LNK4099: PDB 'nsfw2draw.pdb' was not found with 'sfw.lib(crenderutils.obj)' or at 'C:\Users\Aziz\Desktop\SFWExampleProject\Release\nsfw2draw.pdb'; linking object as if no debug info
+         AnimationExample.vcxproj -> C:\Users\Aziz\Desktop\SFWExampleProject\Release\AnimationExample.exe
+     1>Done Building Project "C:\Users\Aziz\Desktop\SFWExampleProject\AnimationExample.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.30
