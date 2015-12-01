@@ -1,0 +1,30 @@
+﻿Build started 11/9/2015 2:35:28 PM.
+     1>Project "C:\Users\Aziz\Desktop\SFWExampleProject\Test.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(92): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(93): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+     1>main.cpp(52): warning C4101: 'animArray': unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aziz\Desktop\SFWExampleProject\x64\Release\Test.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Aziz\Desktop\SFWExampleProject\x64\Release\Test.pdb" /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Aziz\Desktop\SFWExampleProject\x64\Release\Test.lib" /MACHINE:X64 x64\Release\main.obj
+     1>main.obj : error LNK2001: unresolved external symbol "float __cdecl sfw::getMouseX(void)" (?getMouseX@sfw@@YAMXZ)
+     1>main.obj : error LNK2001: unresolved external symbol "void __cdecl sfw::termContext(void)" (?termContext@sfw@@YAXXZ)
+     1>main.obj : error LNK2001: unresolved external symbol "bool __cdecl sfw::getMouseButton(unsigned int)" (?getMouseButton@sfw@@YA_NI@Z)
+     1>main.obj : error LNK2001: unresolved external symbol "unsigned int __cdecl sfw::loadTextureMap(char const *,unsigned int,unsigned int)" (?loadTextureMap@sfw@@YAIPEBDII@Z)
+     1>main.obj : error LNK2001: unresolved external symbol "unsigned int __cdecl sfw::getTextureHeight(unsigned int)" (?getTextureHeight@sfw@@YAII@Z)
+     1>main.obj : error LNK2001: unresolved external symbol "void __cdecl sfw::drawTexture(unsigned int,float,float,float,float,float,bool,unsigned int,unsigned int,float const * const)" (?drawTexture@sfw@@YAXIMMMMM_NIIQEBM@Z)
+     1>main.obj : error LNK2001: unresolved external symbol "void __cdecl sfw::setBackgroundColor(unsigned int)" (?setBackgroundColor@sfw@@YAXI@Z)
+     1>main.obj : error LNK2001: unresolved external symbol "bool __cdecl sfw::getKey(unsigned int)" (?getKey@sfw@@YA_NI@Z)
+     1>main.obj : error LNK2001: unresolved external symbol "bool __cdecl sfw::initContext(unsigned int,unsigned int,char const *)" (?initContext@sfw@@YA_NIIPEBD@Z)
+     1>main.obj : error LNK2001: unresolved external symbol "unsigned int __cdecl sfw::getTextureWidth(unsigned int)" (?getTextureWidth@sfw@@YAII@Z)
+     1>main.obj : error LNK2001: unresolved external symbol "float __cdecl sfw::getDeltaTime(void)" (?getDeltaTime@sfw@@YAMXZ)
+     1>main.obj : error LNK2001: unresolved external symbol "float __cdecl sfw::getMouseY(void)" (?getMouseY@sfw@@YAMXZ)
+     1>main.obj : error LNK2001: unresolved external symbol "void __cdecl sfw::drawString(unsigned int,char const *,float,float,float,float,float,char,unsigned int,float const * const)" (?drawString@sfw@@YAXIPEBDMMMMMDIQEBM@Z)
+     1>main.obj : error LNK2001: unresolved external symbol "bool __cdecl sfw::stepContext(void)" (?stepContext@sfw@@YA_NXZ)
+     1>C:\Users\Aziz\Desktop\SFWExampleProject\x64\Release\Test.exe : fatal error LNK1120: 14 unresolved externals
+     1>Done Building Project "C:\Users\Aziz\Desktop\SFWExampleProject\Test.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.56
